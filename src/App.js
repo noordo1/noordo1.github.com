@@ -1,29 +1,26 @@
 import './App.css';
 
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Projects from './pages/Projects';
+
+import Navbar from './pages/Navbar';
+
+import { Route, Routes  } from 'react-router-dom';
+
+import Carousel from './pages/components/carousel';
+
 function App() {
   return (
     <div className="App">
-      <div className='content'>
-        <div className='navbar nav-left' align="left">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-          </ul> 
-        </div>
-        <div className='navbar nav-right'>
-          <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul> 
-        </div>
-        <div className='main-content'>
-          <div className='carosel'>
-            <div className='title'>
-              Latest Projects!
-            </div>
-          </div>
-        </div>
-      </div>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </div>
   );
 }
