@@ -4,6 +4,20 @@
     gap: 1vw;
 }
 
+
+
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 .grid-element {
     gap: 1vw;
 }
@@ -15,5 +29,8 @@
 
 .title {
     font-size: 2rem;
-    padding: 20px;
+    padding: 10vh;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
 }

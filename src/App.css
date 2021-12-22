@@ -19,6 +19,7 @@
   background-size: cover;
   text-align: center;
   font-family: "Roboto Mono", sans-serif;
+  overflow: hidden;
 }
 
 .main-content {
@@ -40,6 +41,7 @@
   vertical-align: middle;
 
   font-size: larger;
+  z-index: 1;
 }
 
 .nav-left {
