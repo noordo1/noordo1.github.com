@@ -1,5 +1,9 @@
 .App {
   font-family: "Roboto Mono", sans-serif;
+  position: relative;
+  height: auto;
+  background-color: #1A3343;
+  min-height: 100% !important;
 }
 
 .spacer {
