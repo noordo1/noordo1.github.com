@@ -1,8 +1,8 @@
-import './carousel_object.css';
+import './project_object.css';
 
 import images from './imgs/index';
 
-const CarouselObject = ({project}) => {
+const ProjectObject = ({project}) => {
     
     const {title, category, image, source} = project;
     return (
@@ -25,4 +25,4 @@ const CarouselObject = ({project}) => {
     );
 }
 
-export default CarouselObject;
+export default ProjectObject;
