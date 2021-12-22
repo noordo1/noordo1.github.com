@@ -19,6 +19,12 @@
     color: black;
 }
 
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .source_code {
     padding-top: 1.2vh;
     text-align: center;

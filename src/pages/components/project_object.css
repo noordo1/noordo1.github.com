@@ -6,13 +6,13 @@
 }
 
 .container {
-    width: 30vw;
+    width: 23vw;
     margin-top: 5vh;
 }
 
 .inner_con {
     background-color: #8AC5EA;
-    width: 20vw;
+    min-width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
